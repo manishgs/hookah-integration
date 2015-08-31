@@ -1,31 +1,33 @@
-# Hookah integration in php App
+## Hookah integration in php App
 This is an example [hookah](https://github.com/younginnovations/hookah) integration with custom php app.
 
-## Install
+### Install
 
-* git clone https://github.com/manishgs/hookah-integration.git
+* Clone repo - `git clone https://github.com/manishgs/hookah-integration.git`
 
-* cd hookah-integration
+* change directory - `cd hookah-integration`
 
 * Install app dependencies -  `composer install`
 
-* cd public 
+* cope example .env file - `cp .env-example .env`
+
+* change directory - `cd public` 
 
 * Serve app - `php -S localhost:8000` 
 
 
-## Run test
-* cd hookah-integration
+### Run test
+* `cd hookah-integration`
 * `./vendor/bin/phpunit`
 
-## Run tests faster
+### Run tests faster
 * `./vendor/bin/paratest -f --colors -m 2 -p 4 tests` 
 
-## Configuration
+### Configuration
 * you can change base URL at `test\Smoke\BaseTestCase.php`
 * For more configuration [Read here] (https://github.com/younginnovations/hookah#settings)
 
-## Packages
+### Packages
 
 This application uses following packages:
 
