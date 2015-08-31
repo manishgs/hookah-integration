@@ -2,7 +2,6 @@
   "name": "mgs/hookah-example",
   "type": "project",
   "require": {
-    "symfony/http-foundation": "~2.6",
     "league/route": "^1.1",
     "vlucas/phpdotenv": "^2.0"
   },
