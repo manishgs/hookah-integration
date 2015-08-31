@@ -5,13 +5,13 @@ This is an example [hookah](https://github.com/younginnovations/hookah) integrat
 
 * Clone repo - `git clone https://github.com/manishgs/hookah-integration.git`
 
-* change directory - `cd hookah-integration`
+* Change directory - `cd hookah-integration`
 
 * Install app dependencies -  `composer install`
 
-* cope example .env file - `cp .env-example .env`
+* Copy .env-example to .env file - `cp .env-example .env`
 
-* change directory - `cd public` 
+* Change directory - `cd public` 
 
 * Serve app - `php -S localhost:8000` 
 
